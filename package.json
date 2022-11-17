@@ -1,0 +1,25 @@
+{
+  "name": "huckbotproject",
+  "version": "0.0.1",
+  "description": "헉봇",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strong-trash/huck-chatbot.git"
+  },
+  "keywords": [
+    "huck"
+  ],
+  "author": "changgeun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/strong-trash/huck-chatbot/issues"
+  },
+  "homepage": "https://github.com/strong-trash/huck-chatbot#readme",
+  "dependencies": {
+    "discord.js": "^14.6.0"
+  }
+}

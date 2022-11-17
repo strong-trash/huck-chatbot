@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./msg-bubble.css" />
+    <title>헉-챗봇</title>
+  </head>
+  <body>
+    <div id="root">
+      <div id="frame">
+        <div id="chat-area">
+          <div class="bot-msg">
+            <span class="bot-msg-nickname">봇</span>
+            <img class="bot-msg-img" src="./assets/boy.png" />
+            <span class="bot-msg-arrow"></span>
+            <p class="bot-msg-content">출근하기싫어</p>
+            <span>a</span>
+          </div>
+        </div>
+        <form id="input-area" onsubmit="onsubmit">
+          <input id="input-text" type="text" />
+          <input type="submit" value="입력" />
+        </form>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

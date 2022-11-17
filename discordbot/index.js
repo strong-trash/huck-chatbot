@@ -1,5 +1,5 @@
 const { Client, GatewayIntentBits } = require("discord.js");
-
+const {config} = require('./config.json');
 const client = new Client({
     intents: [
         GatewayIntentBits.Guilds,
@@ -12,4 +12,4 @@ client.on("ready", () => {
 
 
 // 봇과 서버를 연결해주는 부분
-client.login('MTA0Mjg5Mjg5MDY2MzI5NzAzNQ.GQRBAI.UqBb3YpkqKgL8U4x1iQdGKYAV5vydkOIMVjvE0');
+client.login(config.token);
